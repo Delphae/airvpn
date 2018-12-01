@@ -1,6 +1,5 @@
 
 ## AirPy - Python wrapper for the AirVPN API
-#### FlightAware XML v3
 
 A Pythonic way to read and display data from AirpVPN API (based on the JSON ouput)key.
 
