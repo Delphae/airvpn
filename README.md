@@ -7,9 +7,12 @@ You can request an API key at https://airvpn.org/client/
 
 #### API Documentation
 https://airvpn.org/faq/api/
+
 ##### API calls
 https://airvpn.org/api/?format=json&key=<your_api_key>&service=userinfo
+
 https://airvpn.org/api/?format=json&key=<your_api_key>&service=status
+
 #### Define an instance of AirPy with your api key
 
 
