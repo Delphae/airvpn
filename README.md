@@ -18,7 +18,7 @@ https://airvpn.org/api/?format=json&key=<your_api_key>&service=status
 
 ```python
 from AirPy import Airvpn
-APIKEY = "ebe97ae18e1b0166c8036f62ed5c133e6b6ac034"
+APIKEY = "ebe97ae14821b0176c8066f62ee5c132e6b6ac034"
 air = Airvpn(APIKEY,'nl')  # when you are located in the Netherlands
 air = Airvpn(APIKEY,'gb')  # when you are located in the UK, and so on
 ```
