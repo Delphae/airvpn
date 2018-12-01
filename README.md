@@ -7,17 +7,15 @@ You can request an API key at https://airvpn.org/client/
 
 #### API Documentation
 https://airvpn.org/faq/api/
-
 ##### API calls
 https://airvpn.org/api/?format=json&key=<your_api_key>&service=userinfo
 https://airvpn.org/api/?format=json&key=<your_api_key>&service=status
-
 #### Define an instance of AirPy with your api key
 
 
 ```python
 from AirPy import Airvpn
-APIKEY = "ebe97ae14821b0176c8066f62ee5c132e6b6ac034"
+APIKEY = "ebe974e18e150166c3036462ed5c133e6b6ac034"
 air = Airvpn(APIKEY,'nl')  # when you are located in the Netherlands
 air = Airvpn(APIKEY,'gb')  # when you are located in the UK, and so on
 ```
