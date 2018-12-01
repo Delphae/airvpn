@@ -65,19 +65,3 @@ for server in servers:
 
 
 
-```python
-print server.bw_max
-```
-
-    1000
-
-
-
-```python
-print server.location
-```
-
-    Manchester
-
-
-
