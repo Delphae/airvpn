@@ -13,8 +13,9 @@ import json
 import random
 from datetime import datetime as dt
 
-__version__ = '1.4'
-__date__ = '2018-11-13'
+
+__version__ = '1.5'
+__date__ = '2019-01-01'
 
 class Airvpn():
     '''
@@ -102,6 +103,7 @@ class Server():
 class Connection():
     def __init__ (self, connection):
         self.__dict__ = connection
+#        self.connected = dt.strptime(self.connected_since_date, '%Y-%m-%d %H:%M:%S')
     def __repr__ (self):
         return self.server_name
     def __str__ (self):
@@ -121,6 +123,7 @@ class User():
 class Session():
     def __init__ (self, session):
         self.__dict__ = session
+        self.connected = dt.strptime(self.connected_since_date, '%Y-%m-%d %H:%M:%S')
     def __repr__ (self):
         return self.server_name
     def __str__ (self):
